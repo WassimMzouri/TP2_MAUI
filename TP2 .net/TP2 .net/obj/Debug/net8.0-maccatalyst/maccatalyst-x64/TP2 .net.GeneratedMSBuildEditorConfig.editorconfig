@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TP2_.net
+build_property.ProjectDir = C:\Users\MZOURI\source\repos\TP2 .net\TP2 .net\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/Views/APropos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.Views.APropos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\APropos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\APropos.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/Views/ListeNotes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.Views.ListeNotes.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ListeNotes.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ListeNotes.xaml
+
+[C:/Users/MZOURI/source/repos/TP2 .net/TP2 .net/Views/Note.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TP2_.net.Views.Note.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Note.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Note.xaml

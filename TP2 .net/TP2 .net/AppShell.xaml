@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TP2_.net.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TP2_.net"
+    xmlns:views="clr-namespace:TP2_.net.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="TP2_.net">
+
+
+    <TabBar>
+        <ShellContent Title="Notes" ContentTemplate="{DataTemplate views:Note}"  Icon="icon_notes" />
+        <ShellContent Title="Liste Notes" ContentTemplate="{DataTemplate views:ListeNotes}" Icon="icon_about" />
+        <ShellContent Title="A Propos" ContentTemplate="{DataTemplate views:APropos}" Icon="icon_about" />
+    </TabBar>
+
+</Shell>

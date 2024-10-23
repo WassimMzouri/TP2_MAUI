@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP2_.net.Views.Note"
+             Title="Note">
+    
+    <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Ajouter" Clicked="Ajouter_Clicked" IconImageSource="{FontImage Glyph='+', Color=Black, Size=30}" />
+    </ContentPage.ToolbarItems>
+    
+    <VerticalStackLayout Spacing="10" Margin="5"> 
+        <Editor
+            Text="{Binding Text}"
+            x:Name="TextEditor" 
+            Placeholder="Taper votre note" 
+            HeightRequest="100" />
+        
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="4"> 
+            <Button Text="Enregistrer" Clicked="ButtonEnregistrer_Clicked" />
+            <Button Grid.Column="1" Text="Supprimer" Clicked="ButtonSupprimer_Clicked" />
+        </Grid>
+
+        
+    </VerticalStackLayout>  
+    
+</ContentPage>

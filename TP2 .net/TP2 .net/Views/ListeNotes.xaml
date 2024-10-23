@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TP2_.net.Views.ListeNotes"
+             Title="ListeNotes">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Ajouter" Clicked="Ajouter_Clicked" IconImageSource="{FontImage Glyph='+', Color=Black, Size=30}" />
+    </ContentPage.ToolbarItems>
+
+    <Grid>
+        <!-- Si vous voulez que la collection occupe tout l'espace disponible -->
+        <CollectionView 
+            x:Name="CollectionDeNotes" 
+            ItemsSource="{Binding CollNotes}"  
+            Margin="20" 
+            SelectionMode="Single" 
+            SelectionChanged="CollectionDeNotes_SelectionChanged"
+            VerticalOptions="FillAndExpand">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding Text}" FontSize="22"/>
+                        <Label Text="{Binding Date}" FontSize="14" TextColor="Silver"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+    </Grid>
+</ContentPage>
+    
